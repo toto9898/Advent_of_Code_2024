@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 1 - Historian Hysteria"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 2 - Red-Nosed Reports", "Day 2 - Red-Nosed Reports\Day 2 - Red-Nosed Reports.csproj", "{D4D8C541-CE43-45CB-8345-3BFB25168D3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 3 - Mull It Over", "Day 3 - Mull It Over\Day 3 - Mull It Over.csproj", "{19F2844D-6EAD-4432-B158-250590F14117}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{D4D8C541-CE43-45CB-8345-3BFB25168D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4D8C541-CE43-45CB-8345-3BFB25168D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4D8C541-CE43-45CB-8345-3BFB25168D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F2844D-6EAD-4432-B158-250590F14117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F2844D-6EAD-4432-B158-250590F14117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F2844D-6EAD-4432-B158-250590F14117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F2844D-6EAD-4432-B158-250590F14117}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
