@@ -40,7 +40,10 @@ static bool IsSafeReportPart2_BruteForce(string[] parts)
 
 int         safeReports1 = 0;
 int         safeReports2 = 0;
-string[]    lines       = File.ReadAllLines("e:/Programming/Advent_of_Code_2024/Day 2 - Red-Nosed Reports/input.txt");
+
+string      projectPath = new DirectoryInfo(Environment.CurrentDirectory).Parent.Parent.Parent.FullName;
+string      inputPath   = Path.Combine(projectPath, "input.txt");
+string[]    lines       = File.ReadAllLines(inputPath);
 
 foreach (string line in lines)
 {

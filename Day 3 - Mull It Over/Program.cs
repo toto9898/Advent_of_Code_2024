@@ -20,7 +20,9 @@ class Program
 
     static void Main()
     {
-        string          input   = File.ReadAllText("e:/Programming/Advent_of_Code_2024/Day 3 - Mull It Over/input.txt");
+        string          projectPath  = new DirectoryInfo(Environment.CurrentDirectory).Parent.Parent.Parent.FullName;
+        string          inputPath    = Path.Combine(projectPath, "input.txt");
+        string          input        = File.ReadAllText(inputPath);
         
         string[]        parts   = input.Split(["do()", "don't()"], StringSplitOptions.RemoveEmptyEntries);
         string          pattern = @"mul\(\d{1,3},\d{1,3}\)";

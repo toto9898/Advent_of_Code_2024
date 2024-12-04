@@ -2,7 +2,10 @@
 List<int> list2 = [];
 Dictionary<int, int> similarities = [];
 
-string[] lines = File.ReadAllLines("e:/Programming/Advent_of_Code_2024/Day 1 - Historian Hysteria/input.txt");
+string projectPath  = new DirectoryInfo(Environment.CurrentDirectory).Parent.Parent.Parent.FullName;
+string inputPath    = Path.Combine(projectPath, "input.txt");
+
+string[] lines = File.ReadAllLines(Path.Combine(inputPath, "input.txt"));
 
 foreach (string line in lines)
 {
