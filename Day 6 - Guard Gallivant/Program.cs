@@ -61,7 +61,6 @@ class Guard(Vector2 position, char[][] map)
     private char[][] _map = map;
     private Vector2 direction = directions[0];
     private int directionIndex = 0;
-
     private HashSet<(Vector2, Vector2)> visited = [];
 }
 
@@ -74,14 +73,11 @@ class Program
         string          inputFilePath   = Path.Combine(projectPath, "input.txt");
         string[]        mapStr          = File.ReadAllLines(inputFilePath);
 
-        // convert the map to a mutable array
-        char[][] map = mapStr.Select(row => row.ToCharArray()).ToArray();
+        char[][]        map             = mapStr.Select(row => row.ToCharArray()).ToArray();
         
-        // find the (x, y) of "^"
-        var position = map.Select((row, y) => (row, y)).First(rowY => rowY.row.Contains('^'));
-        int x = Array.IndexOf(position.row, '^');
-        int y = position.y;
-
+        var position    = map.Select((row, y) => (row, y)).First(rowY => rowY.row.Contains('^'));
+        int x           = Array.IndexOf(position.row, '^');
+        int y           = position.y;       
         map[y][x]       = 'X';
         Vector2 pos     = new(x, y);
         
