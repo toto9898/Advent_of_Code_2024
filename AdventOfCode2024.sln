@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 9 - Disk Fragmenter", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 10 - Hoof It", "Day 10 - Hoof It\Day 10 - Hoof It.csproj", "{4E9B5B2E-E890-4E17-A29E-AA221AE6435C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 11 - Plutonian Pebbles", "Day 11 - Plutonian Pebbles\Day 11 - Plutonian Pebbles.csproj", "{E65B65AA-C893-4747-8AA1-F05FC2311579}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,9 @@ Global
 		{4E9B5B2E-E890-4E17-A29E-AA221AE6435C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E9B5B2E-E890-4E17-A29E-AA221AE6435C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E9B5B2E-E890-4E17-A29E-AA221AE6435C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E65B65AA-C893-4747-8AA1-F05FC2311579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E65B65AA-C893-4747-8AA1-F05FC2311579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E65B65AA-C893-4747-8AA1-F05FC2311579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E65B65AA-C893-4747-8AA1-F05FC2311579}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
