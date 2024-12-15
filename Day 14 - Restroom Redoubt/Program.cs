@@ -154,8 +154,8 @@ class Program
 
     public static void Main()
     {
-        List<Robot> robots1  = ReadInput();
-        List<Robot> robots2 = [.. robots1];
+        List<Robot> robots1 = ReadInput();
+        List<Robot> robots2 = ReadInput();
 
         // Part 1
         foreach (Robot robot in robots1)
